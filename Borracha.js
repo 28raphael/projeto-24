@@ -23,7 +23,7 @@ class Borracha{
 			strokeWeight(4);
 			stroke("black");
 			fill("darkblue");
-			ellipseMode(CENTER);
+			ellipseMode(RADIUS);
 			ellipse(0,0,this.r, this.r);
 			pop();
 	}
